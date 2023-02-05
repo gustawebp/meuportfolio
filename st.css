@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,200&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #100126;;
+    color: #F2F2F2;;
+    height: 100%;
+}
+/*DIV Nome e profissao */
+.apresentacao{
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 26pt;
+}
+
+
+.span-gustavocampos{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.301) 0%, rgba(9, 9, 121, 0.363) 22%, rgba(88, 26, 136, 0.336) 69%);
+
+}
+.span-profissao{
+    color: gray;
+    font-weight: 100;
+    font-size: 15pt;
+}
+.projetos{
+    margin: auto;
+    border: 5px solid  #A1AE8D;
+    padding: 20px;
+    width: 50%;
+    font-size: 9pt;
+    text-align: center;
+
+}
+/*Itens da tabela de projetos */
+td{
+    text-align: center;
+    margin:  auto;
+    padding: 10px;
+    border: 2px solid #6D3E8C;  
+    box-shadow: 1px 1px 1px #6D3E8C;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+}
+
+a{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+ a:hover{
+    color: #6D3E8C; 
+
+ }
+
+
+/*Fim dos itens da tabela de projetos */
+
+
+ img{
+    width: 75px;
+ }
+/*DIV das redes Sociais */
+ .social{
+    border: 5px solid #A1AE8D;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+
+    margin: auto;
+    text-align: center;
+ }
+
+
+
+.sobremim{
+    text-align: center;
+    border: 5px solid #A1AE8D;
+    margin: auto;
+    width: 50%;
+    text-align: start;
+    padding: 16px;
+
+
+
+
+}
+ #name{
+    font-weight: bolder;
+    font-size: 15pt;
+    color: #6D3E8C;
+ }
+
+
+.hard:hover, .soft:hover, h1:hover{
+    color: #6D3E8C;
+
+}
+
+.table2-skills, .td2-skills{
+    width: 50%;
+    font-size: 9pt;
+    
+
+
+
+
+    
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #6D3E8C;    /* color of the scroll thumb */
+    border: 0.5px solid #321744;  /* creates padding around scroll thumb */
+  }
+
+/* Color Theme Swatches in Hex */
+.algodão-roxo-1-hex { color: #6D3E8C; }
+.algodão-roxo-2-hex { color: #100126; }
+.algodão-roxo-3-hex { color: #F2F2F2; }
+.algodão-roxo-4-hex { color: #A1AE8D; }
+.algodão-roxo-5-hex { color: #591A88; }
+
