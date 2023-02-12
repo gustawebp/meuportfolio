@@ -1,0 +1,265 @@
+/*DIV Nome e profissao */
+.apresentacao{
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 26pt;
+}
+
+
+.span-gustavocampos{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.301) 0%, rgba(9, 9, 121, 0.363) 22%, rgba(88, 26, 136, 0.336) 69%);
+
+}
+.span-profissao{
+    color: gray;
+    font-weight: 100;
+    font-size: 15pt;
+}
+
+
+
+/*Itens da tabela de projetos */
+
+
+table{
+    text-align: center;
+    margin: auto;
+}
+
+a{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+ a:hover{
+    color: #6D3E8C; 
+
+ }
+
+
+/*Fim dos itens da tabela de projetos */
+
+
+
+
+ img{
+    width: 50px;
+
+ }
+
+ .social{
+    margin: auto;
+    border: 3.2px solid  #A1AE8D;
+    width: 25vw;
+    text-align: center;
+    padding: 5px 10px;
+
+ }
+
+
+
+.sobremim{
+    margin: auto;
+    border: 3.2px solid  #A1AE8D;
+    width: 36vw;
+    padding-bottom: 5px;
+
+    text-align: center;
+    font-size: 13pt;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+
+
+}
+
+
+.projetos{
+    margin: auto;
+    border: 3.2px solid  #A1AE8D;
+    padding: 5px 10px;
+    width: 36vw;
+    font-size: 13pt;
+    text-align: center;
+
+
+}
+
+    
+.td2-skills /* NAVEGADOR DE PC  */ {
+
+
+
+
+    border: 2px solid #6D3E8C;  
+    box-shadow: 1px 1px 1px #6D3E8C;
+    font-size: 12pt;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+    
+}
+
+.td-proj{
+    text-align: center;
+    margin: auto;
+    border: 2px solid #6D3E8C;  
+    box-shadow: 1px 1px 1px #6D3E8C;
+    font-size: 13pt;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    
+}
+
+
+/*RESPONSIVO PARA CELULAR (TESTADO EM IPHONE 6/7/SE*/
+
+@media (max-width: 720px) {
+
+    .sobremim{
+        text-align: center;
+        border: 3.2px solid  #A1AE8D;
+        margin: auto;
+        width: 67vw;
+        border-radius: 10px;
+        font-size: 12pt;
+        padding-left: 10px;
+        padding-right: 10px;
+        animation: fadeInRight 1s normal;
+
+    }
+
+    .projetos{
+        margin: auto;
+        text-align: center;
+        border: 3.2px solid  #A1AE8D;
+        width: 67vw;
+        border-radius: 10px;
+        font-size: 9pt;
+        animation: fadeInLeftBig 1s;
+
+    
+    }
+    
+    .social{
+        border: 3.2px solid  #A1AE8D;
+        width: 45vw;
+        padding: 5px 5px;
+        border-radius: 20px;
+        margin: auto;
+        text-align: center;
+        border-radius: 10px;
+
+        
+     }
+    
+
+    
+    .td2-skills{
+        text-align: center;
+        margin: auto;
+    
+            padding-top: 0px;
+            padding-right: 10px;
+            padding-bottom: 0px;
+            padding-left: 10px;
+
+     border: 0.2px solid  #A1AE8D;
+        box-shadow: 1px 1px 1px #6D3E8C;
+        font-size: 10pt;
+        
+    }
+    
+    .td-proj{
+        text-align: center;
+        margin: auto;
+        padding-top: 0px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+
+        border: 2px solid #6D3E8C;  
+        box-shadow: 1px 1px 1px #6D3E8C;
+        font-size: 10pt;
+        
+    }
+
+
+
+
+
+
+    
+  }
+
+
+ /* ANIMAÇÕES */
+  .fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInRight {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+    .fadeInLeftBig {
+        -webkit-animation-name: fadeInLeftBig;
+        animation-name: fadeInLeftBig;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes fadeInLeftBig {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
+        @keyframes fadeInLeftBig {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-2000px, 0, 0);
+        transform: translate3d(-2000px, 0, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        } 
