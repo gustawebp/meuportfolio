@@ -98,7 +98,7 @@ a{
     box-shadow: 1px 1px 1px #6D3E8C;
     font-size: 12pt;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 10px;
 
     
 }
@@ -109,7 +109,7 @@ a{
     border: 2px solid #6D3E8C;  
     box-shadow: 1px 1px 1px #6D3E8C;
     font-size: 13pt;
-    padding: 10px 20px;
+    padding: 5px 5px;
     border-radius: 10px;
 
     
@@ -263,3 +263,5 @@ a{
         transform: none;
         }
         } 
+
+
