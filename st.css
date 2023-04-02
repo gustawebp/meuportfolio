@@ -2,7 +2,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #100126;;
-    color: #F2F2F2;;
+    color: #F2F2F2;
+    overflow-x: hidden;
+    
+
 }
 
 
@@ -68,3 +71,6 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 
+.selos{
+    width: 80px;
+}

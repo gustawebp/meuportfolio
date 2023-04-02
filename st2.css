@@ -5,6 +5,10 @@
     font-size: 26pt;
 }
 
+div{
+    margin-bottom: 10px;
+}
+
 
 .span-gustavocampos{
     color: white;
@@ -55,6 +59,8 @@ a{
     width: 25vw;
     text-align: center;
     padding: 5px 10px;
+    /* margin-top: 10px; */
+
 
  }
 
@@ -86,6 +92,7 @@ a{
     text-align: center;
 
 
+
 }
 
     
@@ -99,22 +106,36 @@ a{
     font-size: 12pt;
     border-radius: 10px;
     padding: 10px;
+    
 
     
 }
 
 .td-proj{
     text-align: center;
-    margin: auto;
+
     border: 2px solid #6D3E8C;  
     box-shadow: 1px 1px 1px #6D3E8C;
     font-size: 13pt;
-    padding: 5px 5px;
+    padding: 6px 5px;
     border-radius: 10px;
+
 
     
 }
 
+footer{
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    background-color: black;
+    font-size: 9pt;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    left: 0;
+    position: absolute;
+
+}
 
 /*RESPONSIVO PARA CELULAR (TESTADO EM IPHONE 6/7/SE*/
 
@@ -153,6 +174,7 @@ a{
         margin: auto;
         text-align: center;
         border-radius: 10px;
+        /* margin-top: 10px; */
 
         
      }
@@ -177,11 +199,10 @@ a{
     .td-proj{
         text-align: center;
         margin: auto;
-        padding-top: 0px;
+        /* padding-top: 0px;
         padding-right: 5px;
         padding-bottom: 0px;
-        padding-left: 5px;
-
+        padding-left: 5px; */
         border: 2px solid #6D3E8C;  
         box-shadow: 1px 1px 1px #6D3E8C;
         font-size: 10pt;
@@ -189,16 +210,27 @@ a{
     }
 
 
-
+    footer{
+        text-align: center;
+        border: 1px solid black;
+        width: 100%;
+        background-color: black;
+        font-size: 9pt;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        left: 0;
+        position: absolute; 
+    
+    }
 
 
 
     
   }
-
+ 
 
  /* ANIMAÇÕES */
-  .fadeInRight {
+.fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
     -webkit-animation-duration: 1s;
@@ -262,6 +294,6 @@ a{
         -webkit-transform: none;
         transform: none;
         }
-        } 
+        }  
 
 
